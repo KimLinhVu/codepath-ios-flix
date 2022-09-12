@@ -10,6 +10,8 @@
 		275CB4C31B275755DB71AC65 /* Pods_Flix_FlixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3D24025D0BC9833CCCA501 /* Pods_Flix_FlixUITests.framework */; };
 		6F17486628CEE7920059E8DD /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F17486528CEE7920059E8DD /* MovieCell.swift */; };
 		6F17486928CEEB340059E8DD /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6F17486828CEEB340059E8DD /* AlamofireImage */; };
+		6F2E836528CFB1B00002EFEF /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6F2E836428CFB1B00002EFEF /* AlamofireImage */; };
+		6F2E836828CFB1D40002EFEF /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6F2E836728CFB1D40002EFEF /* AlamofireImage */; };
 		6F8674D228CE52B600821148 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8674D128CE52B600821148 /* MoviesViewController.swift */; };
 		6FE0F5B828CD648300B592F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE0F5B728CD648300B592F0 /* AppDelegate.swift */; };
 		6FE0F5BA28CD648300B592F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE0F5B928CD648300B592F0 /* SceneDelegate.swift */; };
@@ -74,7 +76,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F17486928CEEB340059E8DD /* AlamofireImage in Frameworks */,
+				6F2E836828CFB1D40002EFEF /* AlamofireImage in Frameworks */,
 				A513407AAE9659E421BC6BBC /* Pods_Flix.framework in Frameworks */,
+				6F2E836528CFB1B00002EFEF /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +121,6 @@
 				DC4D72D92706AAFBD6C0618D /* Pods-FlixTests.debug.xcconfig */,
 				A8290382D25E6D41091ED42D /* Pods-FlixTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -196,6 +199,8 @@
 			name = Flix;
 			packageProductDependencies = (
 				6F17486828CEEB340059E8DD /* AlamofireImage */,
+				6F2E836428CFB1B00002EFEF /* AlamofireImage */,
+				6F2E836728CFB1D40002EFEF /* AlamofireImage */,
 			);
 			productName = Flix;
 			productReference = 6FE0F5B428CD648300B592F0 /* Flix.app */;
@@ -274,6 +279,8 @@
 			mainGroup = 6FE0F5AB28CD648300B592F0;
 			packageReferences = (
 				6F17486728CEEB340059E8DD /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				6F2E836328CFB1B00002EFEF /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				6F2E836628CFB1D40002EFEF /* XCRemoteSwiftPackageReference "AlamofireImage" */,
 			);
 			productRefGroup = 6FE0F5B528CD648300B592F0 /* Products */;
 			projectDirPath = "";
@@ -785,12 +792,38 @@
 				minimumVersion = 4.0.0;
 			};
 		};
+		6F2E836328CFB1B00002EFEF /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		6F2E836628CFB1D40002EFEF /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		6F17486828CEEB340059E8DD /* AlamofireImage */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 6F17486728CEEB340059E8DD /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+		6F2E836428CFB1B00002EFEF /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F2E836328CFB1B00002EFEF /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+		6F2E836728CFB1D40002EFEF /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F2E836328CFB1B00002EFEF /* XCRemoteSwiftPackageReference "AlamofireImage" */;
 			productName = AlamofireImage;
 		};
 /* End XCSwiftPackageProductDependency section */
