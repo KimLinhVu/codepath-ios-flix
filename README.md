@@ -40,5 +40,7 @@ Describe any challenges encountered while building the app.
 ### App Walkthrough GIF
 https://user-images.githubusercontent.com/90161607/189736100-beb07283-e981-4694-911e-eb9ed85afdf3.MP4
 
+https://user-images.githubusercontent.com/90161607/190867617-be01ea11-d7d3-4f57-b37a-81b2b7ddaa46.mp4
+
 ### Notes
 Describe any challenges encountered while building the app.
